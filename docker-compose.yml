@@ -3,7 +3,7 @@ services:
   app:
     build: app/
     volumes:
-      - ./app/src/:/usr/src/app/
+      - ./server/:/usr/src/app/
   web:
     image: nginx
     links:
