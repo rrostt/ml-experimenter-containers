@@ -1,4 +1,4 @@
-FROM node:argon
+FROM node:alpine
 
 # Create app directory
 # COPY src /usr/src/app
